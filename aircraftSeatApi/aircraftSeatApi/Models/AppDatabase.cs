@@ -13,5 +13,9 @@ namespace aircraftSeatApi.Models
 
         }
 
+        public DbSet<Airline> Airline { get; set; }
+        public DbSet<Client> Client { get; set; }
+        public DbSet<Seat> Seat { get; set; }
+        
     }
 }
